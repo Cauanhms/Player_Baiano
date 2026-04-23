@@ -6,4 +6,9 @@ janela = tk.Tk()
 janela = title("Player")
 janala.geometry("300x200")
 
+def play:
+    print("Play")
+
+btn = tk.button(janela, text="Play", command=play)
+btn.pack()
 janela.mainloop()
