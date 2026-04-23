@@ -1,4 +1,9 @@
 #main
 
-print("ola mundo")
+import tkinter as tk
 
+janela = tk.Tk()
+janela = title("Player")
+janala.geometry("300x200")
+
+janela.mainloop()
